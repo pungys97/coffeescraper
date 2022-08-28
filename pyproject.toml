@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "coffeescraper"
+version = "0.1.0"
+description = ""
+authors = ["petrungar <petr.ungar@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "3.7.4.post0"
+asttokens = "2.0.5"
+async-timeout = "3.0.1"
+attrs = "21.2.0"
+beautifulsoup4 = "4.9.3"
+certifi = "2021.5.30"
+chardet = "4.0.0"
+charset-normalizer = "2.0.4"
+colorama = "0.4.4"
+executing = "0.8.0"
+idna = "3.2"
+multidict = "5.1.0"
+price-parser = "0.3.4"
+Pygments = "2.9.0"
+requests = "2.26.0"
+six = "1.16.0"
+soupsieve = "2.2.1"
+typing-extensions = "3.10.0.0"
+urllib3 = "1.26.6"
+yarl = "1.6.3"
+
+[tool.poetry.dev-dependencies]
+icecream = "2.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

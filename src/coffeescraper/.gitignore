@@ -1,0 +1,5 @@
+venv/
+test/
+.idea
+scrape_history/
+/firebase/secrets/
